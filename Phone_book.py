@@ -19,8 +19,10 @@ class Contact:
         f'В избранных: {self.favored}\n' \
         f'Дополнительная информация:\n\t{kwargs_list}'
 
+
 jhon = Contact('Jhon', 'Smith', '+71234567809', telegram='@jhony', email='jhony@smith.com')
 # print(jhon)
+
 
 # Задача 2. Создать класс PhoneBook
 
@@ -108,7 +110,4 @@ def main():
 if __name__ == '__main__':
     phones = PhoneBook(1, jhon=jhon)
     main()
-
-
-
 
